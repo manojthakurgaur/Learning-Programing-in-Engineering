@@ -1,0 +1,1444 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta name="theme-color" content="#323754">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content=" 
+Prepare for your technical interviews by solving questions that are asked in interviews of various companies.
+ HackerEarth is a global hub of 5M+ developers. We help companies accurately assess, interview, and hire top developers for a myriad of roles." >
+        <link rel="canonical" href="https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/" />
+        <meta name="msvalidate.01" content="1BF418E510B5A17A2D71685C571BF4EB" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        
+
+        
+<meta name="google-site-verification" content="ozqyeStBcz4eehbY9Ohb_IUQcA4y8BKzzDCT-H1QPPc" />
+
+
+        
+        
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-K5QQ3LB');
+        </script>
+        <!-- End Google Tag Manager -->
+        
+        
+
+        <title>  Favourite Singer | Practice Problems </title>
+
+        
+<meta property="og:title" content="Favourite Singer | Practice Problems"/>
+<meta property="og:image" content="https://cdn.hackerearth.com/static/hackerearth/images/logo/HE_cover.jpg" />
+<meta property="og:description" content=""/>
+<meta property="og:url" content="https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/"/>
+<meta property="og:site_name" content="HackerEarth"/>
+<meta property="og:type" content="hackerearth:problem"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@HackerEarth"/>
+<meta name="twitter:url" content="https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/"/>
+<meta name="twitter:title" content="Favourite Singer | Practice Problems"/>
+
+
+        
+        <link rel="shortcut icon" href="https://cdn.hackerearth.com/static/hackerearth/images/logo/HE_identity.png" type="image/x-icon">
+        
+
+        
+
+        
+            <link rel="stylesheet" href="https://cdn.hackerearth.com/static/base/base_common_combined.fd68a2581441.css"/>
+            <link rel="stylesheet" href="https://cdn.hackerearth.com/static/css/font-awesome-4.7.0/css/font-awesome.min.269550530cc1.css"/>
+            <link rel="stylesheet" href="https://cdn.hackerearth.com/static/css/opensans/opensans.06e0aa7529dc.css"/>
+            <link rel="stylesheet" href="https://cdn.hackerearth.com/static/css/unicons.9eda5fc182c1.css"/>
+        
+
+        
+
+
+        
+
+        <!-- Make the static variable available for all js files -->
+        <script>
+            var STATIC_URL = "https://cdn.hackerearth.com/static/";
+            var RECAPTCHA_V3_SITE_KEY = "6LeyqcIZAAAAAOcy_5WJORJsuu9zmbZZxIRp4-em";
+            var ssEnabled = false;
+        </script>
+
+        <!-- Store CSRF_COOKIE -->
+        <script>
+            var CSRF_COOKIE_USED = "True";
+            var CSRF_COOKIE = "VrOztL0Wq3UgHU1NWtN7C0bjfrZQ01gEsIPzi2VUKuqyx7r9lK93uRTqIhI99K4o";
+        </script>
+
+        
+        
+       
+       
+
+        
+
+    </head>
+
+    <body >
+        
+            
+            
+<link rel="stylesheet" href="https://cdn.hackerearth.com/static/base/notification_toast.13781ce68c5c.css"/>
+<div class="notification-toast-container notification-top-center regular">
+    <div class="notification-errors">
+        <p id="notification-auth-error" class="error-item hidden no-margin">
+            <span class="fa fa-times less-margin-right"></span>Ensure that you are logged in and have the required permissions to access the test.
+        </p>
+        <p id="notification-server-error" class="error-item hidden no-margin">
+            <span class="fa fa-times less-margin-right"></span>A server error has occurred. Please refresh the page or try after some time.
+        </p>
+        <p id="notification-error" class="error-item hidden no-margin">
+            <span class="fa fa-times less-margin-right"></span>An error has occurred. Please refresh the page or try after some time.
+        </p>
+        <p id="notification-custom-error" class="error-item hidden no-margin"></p>
+        
+    </div>
+</div>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/base/notification-toast.d8eeab161f6f.js" crossorigin="anonymous" defer></script>
+
+        
+        
+        
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5QQ3LB"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+	 
+        
+
+        <!-- Placeholder for any alert message on the site -->
+        
+        <div id="alert-message-holder">
+            
+
+            <!-- put a dummy message box so that it can be used when cloning
+                 and adding more -->
+            <div class="alert-message hidden">
+                <div class="message float-left"></div>
+                <div class="cross-holder float-left"><span class="small-cross sprites"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div> <!-- end alert-message-holder -->
+
+        <!-- Placeholder for any error message on the site -->
+        
+        <div id="error-message-holder">
+            
+
+            <!-- put a dummy message box so that it can be used when cloning
+                 and adding more -->
+            <div class="error-message hidden">
+                <div class="message float-left"></div>
+                <div class="cross-holder float-left"><span class="small-cross sprites"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div> <!-- end error-message-holder -->
+        
+        
+
+        
+    
+        
+
+
+<!-- Using Loader -->
+
+<script
+  src="https://js.sentry-cdn.com/131c3c129d6742bca060453a8a3feeea.min.js"
+  crossorigin="anonymous"
+></script>
+
+
+
+<script>
+  var is_user_logged_in = true;
+  var ignoreErrors =  "" ;
+  var defaultIngnoredErrors = ["ResizeObserver loop limit exceeded", "Event `ErrorEvent` captured as exception with message `Script error.`"]
+  ignoreErrors = ignoreErrors ? [...ignoreErrors.split(","), ...defaultIngnoredErrors] : defaultIngnoredErrors;
+
+  Sentry.onLoad(function() {
+    Sentry.init({
+      environment:  "production" ,
+      allowUrls: [/\.hackerearth\.com/],
+      tracesSampleRate:  0 ,
+      sampleRate:  0.2 ,
+      maxBreadcrumbs:  100 ,
+      ignoreErrors: ignoreErrors,
+    });
+
+    is_user_logged_in ? Sentry.setUser({
+        id: 9256773,
+        email: "manojthakurgour09@gmail.com",
+    }) : null;
+  });
+</script>
+
+    
+
+    
+    
+        
+        <header class="header community-header">
+            <i class="fa fa-bars mobile-menu-btn"></i>
+            <nav class="navigation">
+                
+                <a href="https://www.hackerearth.com" class="logo logo-h-terminal  no-underline float-left track-header-logo"></a>
+                
+
+                
+                <ul class="nav-bar no-padding float-left tablet-hide">
+                    <!-- practice page -->
+                    <li id="problems" class="nav-bar-menu selected"><a class="track-header-problems" href="https://www.hackerearth.com/practice/">PRACTICE</a></li>
+                    <!-- challenges page -->
+                    <li id="challenges" class="nav-bar-menu "><a class="track-header-challenges" href="https://www.hackerearth.com/challenges/">COMPETE</a></li>
+                    <!--Jobs-->
+                    <li id="jobs" class="nav-bar-menu "><a class="track-header-jobs" href="https://www.hackerearth.com/jobs/">JOBS</a></li>
+                    <!--Leaderboard page-->
+                    <li id="leaderboard" class="nav-bar-menu "><a class="track-header-leaderboard" href="https://www.hackerearth.com/leaderboard/contests/rated/">LEADERBOARD
+                    </a></li>
+                </ul>
+                <ul class="nav-bar right-nav-bar no-padding float-right tablet-hide">
+                    
+                    
+                    <link rel="stylesheet" href="https://cdn.hackerearth.com/static/search/search.e1ef7070302d.css"/>
+                    <li id="searchbar">
+                        <div id="search-icon-container" class="float-right">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <input id="searchbar-input" class="float-left" type="text" value="" name="q" maxlength="500" autocomplete="off" spellcheck="false" placeholder="Search developers, problems, etc" ajax1="/search/AJAX/search/" ajax2="/search/search-results/" ></input>
+                        <div id="search-dropdown"></div>
+                    </li>
+                    
+                    
+
+                    
+                    <li id="header-notif-icon" class="">
+                        <a class="track-header-notifs tool-tip notification-icon" title="Notifications">
+                            <span id="notif-icon" expand="notifications-box" class="nav-bar-menu nav-menu pagelet-hover tablet-hide" ajax="/notifications/pagelets/new-notifications/" target="notifications-container">
+                                <i class="fa fa-bell"></i>
+                                
+                            </span>
+                        </a>
+                        <a class="track-header-notifs tool-tip notification-icon tablet-show" title="Notifications" href="https://www.hackerearth.com/notifications/">
+                            <span id="notif-icon-mob" class="nav-bar-menu">Notifications</span>
+                        </a>
+                    </li>
+                    
+
+                    
+                        
+                        <li id="user-name" class="nav-bar-menu tablet-hide"><a class="track-header-profile-box" href="https://www.hackerearth.com/@manojthakurgour09"><img src="https://he-s3.s3.amazonaws.com/media/avatars/manojthakurgour09/resized/30/aachttcwktobqct82dyg3wlkxfulje8ixs8j4o43uowuqspe7ws96-c" alt="manojthakurgour09" width="30" height="30" onerror="if(typeof handle_avatar_error=='function'){handle_avatar_error(this);}" /></a></li>
+                        
+                    
+
+                    
+                    <li id="hacker-dd-icon" expand="hacker-box" class="nav-bar-menu nav-menu"><a><div class="caret-icon"><i class="fa fa-caret-down"></i></div></a></li>
+                    
+
+                    
+
+                    <div class="clear"></div>
+                </ul> <!-- nav-bar -->
+                <div class="clear"></div>
+                
+            </nav> <!-- navigation -->
+
+            <i class="fa fa-filter challenge-filter-btn hidden"></i>
+
+        </header>
+        
+    
+    
+    
+
+    
+
+    <div id="comment-share-modal" class="modal-window small-modal">
+        <div class="modal-header">
+            Comment permalink
+        </div>
+        <div class="modal-content">
+            <div class="comment-share-wrapper align-center">
+                <textarea class="comment-share-text" type="textbox" rows="4" readonly="readonly" onclick="this.select();"></textarea>
+            </div>
+        </div>
+    </div>
+
+    
+        
+            
+
+
+
+    <div id="badge-win-modal-root"></div>
+
+    <link rel="stylesheet" href="https://cdn.hackerearth.com/static/badges/badges.921361c6f0b9.css"/>
+    <link rel="stylesheet" href="https://cdn.hackerearth.com/static/badges/nuskha-vendors.eae6f6be9be8.css"/>
+
+    <script type="text/javascript" src="https://cdn.hackerearth.com/static/badges/vendors.d16ada848154.js" crossorigin="anonymous" ></script>
+    <script type="text/javascript" src="https://cdn.hackerearth.com/static/badges/badges.9cb100b8e04d.js" crossorigin="anonymous" ></script>
+    <script type="text/javascript" src="https://cdn.hackerearth.com/static/badges/nuskha-vendors.c33303dfff2c.js" crossorigin="anonymous" ></script>
+
+    <script>
+        function loadBadgeWinModal() {
+            const additionalData = {
+                userId: "9256773",
+                username: "manojthakurgour09",
+            };
+            if (window.renderBadgeWinModal) {
+                window.renderBadgeWinModal("badge-win-modal-root", additionalData);
+            } else {
+                typeof addAlert !== "undefined" && addAlert("An error has occurred. Refresh the page or try after sometime.");
+            }
+        }
+
+        window.addEventListener("load", loadBadgeWinModal);
+    </script>
+
+
+        
+    
+
+    
+    
+
+    <!-- This is the center page which has a fixed width of 1100px -->
+    
+<div class="layout-container">
+    <div class="gray-wide-container">
+        <div id="practice-problem-app-root" class="padding-bottom-20"></div>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="https://cdn.hackerearth.com/static/practice/practice.4c3c3a619d7b.css"/>
+<link rel="stylesheet" href="https://cdn.hackerearth.com/static/monaco/vendors.dd309810920d.css"/>
+
+
+<script type="text/javascript" src="https://cfcdn.hackerearth.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_SVG" crossorigin="anonymous" ></script>
+
+
+<script type="text/x-mathjax-config">
+    var options = {
+      messageStyle: "none",
+      jax: ["input/TeX", "output/SVG", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [['$$','$$'], ['\\(', '\\)']],
+        displayMath: [['$$$', '$$$'], ['\\[', '\\]']],
+        preview: "none"
+      },
+      SVG: {
+        useGlobalCache: false
+      }
+    };
+
+    // modify the options only in case of assessments, since for proxima-nova mathjax renders very small
+    // text in chrome
+    if (window.isProximaNova) {
+      options = {
+        messageStyle: "none",
+        jax: ["input/TeX", "output/SVG", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [['$$','$$'], ['\\(', '\\)']],
+          displayMath: [['$$$', '$$$'], ['\\[', '\\]']],
+          preview: "none"
+        },
+        SVG: {
+          useGlobalCache: false,
+          scale: MathJax.Hub.Browser.isChrome ? 175 : 100,
+          minScaleAdjust: 100
+        },
+        "HTML-CSS": {
+          minScaleAdjust: 100
+        },
+        "CommonHTML": {
+          minScaleAdjust: 100
+        }
+      }
+    }
+
+    MathJax.Hub.Config(options);
+</script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/js/mathjax.4249b2f93e54.js" crossorigin="anonymous" ></script>
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+      if(window.MathJax){ 
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      }
+    });
+</script>
+
+
+    <!-- include modal window for login/signup -->
+    
+
+
+    <!-- override this block where we do not want the footer -->
+    
+    
+        
+                
+
+
+
+
+
+<footer class="marketing-footer footer-large">
+    <div class="fixed-container">
+        <div class="primary-footer">
+            <div class="standard-margin-bottom contact-wrapper">
+                <div class="standard-margin-bottom">
+                    <img src="https://cdn.hackerearth.com/static/hackerearth/images/assessment_marketing/he-footer-logo.svg" />
+                </div>
+                <ul class="no-style">
+                    <li>+1-650-461-4192</li>
+                    <li>
+                        <div>For sales enquiry</div>
+                        <a href="mailto:contact@hackerearth.com" target="_blank">
+                            contact@hackerearth.com
+                        </a>
+                    </li>
+                    <li>
+                        <div>For support</div>
+                        <a href="mailto:support@hackerearth.com" target="_blank">
+                            support@hackerearth.com
+                        </a>
+                    </li>
+                </ul>
+                <ul class="social-links-container no-style">
+                    <li>
+                        <a href="https://www.facebook.com/HackerEarth/" target="_blank">
+                            <img src="https://cdn.hackerearth.com/static/hackerearth/images/assessment_marketing/facebook-logo.svg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/HackerEarth?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                            <img src="https://cdn.hackerearth.com/static/hackerearth/images/assessment_marketing/twitter-logo.svg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/hackerearth/?originalSubdomain=in" target="_blank">
+                            <img src="https://cdn.hackerearth.com/static/hackerearth/images/assessment_marketing/linkedin-logo.svg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCYU6nvKyRYnE5kiG9JXkXpA" target="_blank">
+                            <img src="https://cdn.hackerearth.com/static/hackerearth/images/assessment_marketing/youtube-logo.svg" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="standard-margin-bottom">
+                <h3 class="footer-heading">For Developers</h3>
+                <ul class="no-style">
+                    <li>
+                        <a href="https://www.hackerearth.com/challenges/hackathon/" target="_blank">
+                            Hackathons
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/challenges" target="_blank">
+                            Challenges
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/jobs/" target="_blank">
+                            Jobs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/practice/" target="_blank">
+                            Practice
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/campus-ambassador-program/" target="_blank">
+                            Campus Ambassadors
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="standard-margin-bottom">
+                <h3 class="footer-heading">For Businesses</h3>
+                <ul class="no-style">
+                    <li>
+                        <a href="https://www.hackerearth.com/community-hackathons/" target="_blank">
+                            Hackathons
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/recruit/" target="_blank">
+                            Assessments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/recruit/facecode/" target="_blank">
+                            FaceCode
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.hackerearth.com/recruit/learning-and-development/" target="_blank">
+                            Learning and Development
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="standard-margin-bottom">
+                <h3 class="footer-heading">Knowledge</h3>
+                <ul class="no-style">
+                    <li>
+                        <a href="https://www.hackerearth.com/practice/" target="_blank">
+                            Practice
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/practice/interviews/" target="_blank">
+                            Interview Prep
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/practice/codemonk/" target="_blank">
+                            Codemonk
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://engineering.hackerearth.com/" target="_blank">
+                            Engineering Blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="standard-margin-bottom">
+                <h3 class="footer-heading">Company</h3>
+                <ul class="no-style">
+                    <li>
+                        <a href="https://www.hackerearth.com/team/" target="_blank">
+                            About us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/companies/hackerearth/jobs/" target="_blank">
+                            Careers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/press/" target="_blank">
+                            Press
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://help.hackerearth.com" target="_blank">
+                            Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/reach-us/" target="_blank">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerearth.com/privacy/" target="_blank">
+                            Privacy Policy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ul class="secondary-footer no-style">
+        <li>
+            
+            
+                &copy; 2024 HackerEarth All rights reserved
+            
+        </li>
+        <li>
+            <a href="https://www.hackerearth.com/terms-of-service/" target="_blank">
+                Terms of Service
+            </a>
+        </li>
+        <li>
+            <a href="https://www.hackerearth.com/privacy/" target="_blank">
+                Privacy Policy
+            </a>
+        </li>
+    </ul>
+</footer>
+
+        
+    
+    
+
+    <div class="expand-box" id="recruiter-box">
+        <div class="down-arrow"></div>
+        <ul class="no-margin">
+            
+            
+            
+            <a href="/logout/?next=/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/"><li>Logout</li></a>
+        </ul>
+    </div>
+
+    
+    <div class="expand-box" id="hacker-box">
+        <div class="down-arrow"></div>
+        <ul class="no-margin">
+            
+            <a class="track-header-profile-box-profile" href="https://www.hackerearth.com/@manojthakurgour09">
+                <li>
+                    Profile (65%)
+                    <div class="profile-complete-bar-head">
+                        <span class="profile-complete-bar"></span>
+                        <span class="profile-complete-bar-done"></span>
+                    </div>
+                </li>
+            </a>
+
+            
+
+            <a class="track-header-profile-box-bookmark" href="https://www.hackerearth.com/bookmark/problems/"><li>Bookmarks</li></a>
+            <a class="track-header-profile-box-settings" href="https://www.hackerearth.com/users/profile-settings/"><li>Settings</li></a>
+            <hr class="hr"/>
+
+            
+            <a class="track-header-profile-box-user-ratings tablet-hide" href="https://www.hackerearth.com/leaderboard/contests/rated/"><li>Ratings</li></a>
+            
+            <a class="track-header-profile-box-docs" href="https://www.hackerearth.com/docs/wiki/developers/"><li>Documentation</li></a>
+            <a class="track-header-profile-box-docs" href="https://www.hackerearth.com/docs/wiki/developers/points-and-badges-on-hackerearth/"><li>Badges</li></a>
+
+            <hr class="hr"/>
+
+            
+
+            
+
+            
+            
+
+            
+            <a class="track-header-profile-box-logout" href="/logout/?next=/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/"><li>Logout</li></a>
+        </ul>
+    </div> <!-- hacker-box -->
+    
+
+    <!-- Include notifications box -->
+    
+    
+
+
+
+<div class="expand-box" id="notifications-box">
+    <div class="down-arrow"></div>
+    <div class="notifications-title-container">
+        <div class="float-left weight-600">Notifications</div>
+        <div class="float-right">
+            <a href="#" ajax="https://www.hackerearth.com/notifications/AJAX/mark-all-read/" class="notif-mark-all-read link smaller clicky-ajax">Mark All as Read</a>
+        </div>
+        <div class="clear"></div>
+    </div> <!-- notifications-title-container -->
+
+    <div class="notifications-container nice-scrollbar" id="notifications-container">
+    </div> <!-- notifications-container -->
+
+    <div class="smaller caps weight-600 align-center less-margin-2 less-margin-2-bottom">
+        <a class="link" href="https://www.hackerearth.com/notifications/">View All Notifications</a>
+    </div>
+</div> <!-- notifications-box -->
+
+    
+
+    <!-- Load notification icon with unread count -->
+    <div id="header-notif-icon-trigger" class="load-pagelet hidden" target="header-notif-icon" ajax="/notifications/pagelets/header-notif-icon-count/" show-loader="false"></div>
+
+    
+
+        
+        
+
+        <!-- Store any json returned for bigpipe -->
+        <div id="bigpipe-json" class="hidden">
+            
+        </div>
+
+        <!-- Store any html returned for feedback popup -->
+        <div id="user-feedback-popup" class="hidden"></div>
+
+        
+            <div id="common-notification">
+            </div>
+        
+
+        
+        
+
+        
+        <div id="external-link-modal" class="modal-window very-large-modal">
+            <div class="modal-content large dark align-left">
+                <div id="external-link-content-wrapper">
+                    <pre></pre>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- All the scripts go here -->
+        <script>
+            
+            var CURRENT_PATH = "https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/";
+            var HISTORY = '';
+            var DEFAULT_REAL_NUMBER_PRECISION = 2;
+            var DECIMAL_PRECISION_ERROR_TEXT = "Only {decimal_limit} decimal places allowed";
+            var SOMETHING_WENT_WRONG_ERROR_TEXT = "Something went wrong. Please try again later.";
+
+            // Make code constants available globally in JS
+            var MAP_LANG_TO_NAME = {"BASH": "Bash", "BEFUNGE": "Befunge", "C": "C", "CLOJURE": "Clojure", "CPP11": "C++11", "CPP": "C++", "CPP14": "C++14", "CPP17": "C++17", "CSHARP": "C#", "CSS": "CSS", "D": "D", "ERLANG": "Erlang", "FSHARP": "F#", "GO": "Go", "GROOVY": "Groovy", "HASKELL": "Haskell", "HTML": "HTML", "JAVA": "Java", "JAVA8": "Java 8", "JAVA14": "Java 14", "JAVASCRIPT": "JavaScript(Rhino)", "JAVASCRIPT_NODE": "JavaScript(Node.js)", "JAVASCRIPT_UI": "JavaScript", "JULIA": "Julia", "LISP": "Lisp", "LISP_SBCL": "Lisp (SBCL)", "LUA": "Lua", "LOLCODE": "LOLCODE", "MSSQL": "MSSQL", "MYSQL": "MySQL", "OBJECTIVEC": "Objective-C", "OCAML": "OCaml", "OCTAVE": "Octave", "PASCAL": "Pascal", "PERL": "Perl", "PHP": "PHP", "POSTGRESQL": "PostgreSQL", "PYTHON3": "Python 3", "PYTHON3_8": "Python 3.8", "PYTHON": "Python", "R": "R(RScript)", "RACKET": "Racket", "RUBY": "Ruby", "RUST": "Rust", "SCALA": "Scala", "SCALA_2118": "Scala 2.11.8", "SWIFT_4_1": "Swift-4.1", "SWIFT": "Swift", "TEXTFILE": "Text", "Text": "Text", "TYPESCRIPT": "TypeScript", "vp": "N/A", "VB": "Visual Basic", "WHENEVER": "Whenever", "ORACLE_DB": "Oracle_Db", "KOTLIN": "Kotlin"};
+            var MAP_NAME_TO_LANG = {"Bash": "BASH", "Befunge": "BEFUNGE", "C": "C", "Clojure": "CLOJURE", "C++11": "CPP11", "C++": "CPP", "C++14": "CPP14", "C++17": "CPP17", "C#": "CSHARP", "CSS": "CSS", "D": "D", "Erlang": "ERLANG", "F#": "FSHARP", "Go": "GO", "Groovy": "GROOVY", "Haskell": "HASKELL", "HTML": "HTML", "Java": "JAVA", "Java 8": "JAVA8", "Java 14": "JAVA14", "JavaScript(Rhino)": "JAVASCRIPT", "JavaScript(Node.js)": "JAVASCRIPT_NODE", "JavaScript": "JAVASCRIPT_UI", "Julia": "JULIA", "Lisp": "LISP", "Lisp (SBCL)": "LISP_SBCL", "Lua": "LUA", "LOLCODE": "LOLCODE", "MSSQL": "MSSQL", "MySQL": "MYSQL", "Objective-C": "OBJECTIVEC", "OCaml": "OCAML", "Octave": "OCTAVE", "Pascal": "PASCAL", "Perl": "PERL", "PHP": "PHP", "PostgreSQL": "POSTGRESQL", "Python 3": "PYTHON3", "Python 3.8": "PYTHON3_8", "Python": "PYTHON", "R(RScript)": "R", "Racket": "RACKET", "Ruby": "RUBY", "Rust": "RUST", "Scala": "SCALA", "Scala 2.11.8": "SCALA_2118", "Swift-4.1": "SWIFT_4_1", "Swift": "SWIFT", "Text": "Text", "TypeScript": "TYPESCRIPT", "N/A": "vp", "Visual Basic": "VB", "Whenever": "WHENEVER", "Oracle_Db": "ORACLE_DB", "Kotlin": "KOTLIN"};
+        </script>
+
+        
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var CodeEditorText = {
+        fullScreen: "Full Screen",
+        minimise: "Minimise",
+        submit : "Submit code",
+        submitTooltip : "Code can be submitted multiple times. Only your best submission will be considered.",
+        compileSubmit : "Compile & Test code",
+        compileSubmitForSQL : "Execute & Test",
+        provideCustomInput : "Test against custom input",
+        copyCustomInput: "Click to copy input to test against custom input",
+        customInputPopulated : "Custom input populated",
+        resetCustomInput : "Reset custom input",
+        clearCustomInput : "Clear custom input",
+        disabledCustomInputTooltip: "This test case is very large and you cannot edit it further. Reset the custom input to enable editing again.",
+        largeCustomInput: "Large custom input are not editable",
+        customInputPopulating : "Custom input getting populated",
+        keybindingNormal : "Normal",
+        keybindingVim : "Vim",
+        keybindingEmacs : "Emacs",
+        intellisense: "Auto-complete",
+        writeOrUploadCode : "Enter your code or <a> <i className='fa fa-upload'></i> Upload your code</a> as file.",
+        overWriteExistingTemplate : "Your existing template will be over-written. Are you sure you want to update?",
+        updateDefaultTemplate : "Update default template",
+        takeMeBack: "Nope take me back",
+        yes: "Yes",
+        selectLanguage: "Language",
+        save : "Save",
+        loading: "Loading",
+        autoCompleteInfo: "Press Ctrl-space for autocomplete suggestions.",
+        autoCompleteServerInfo: "Press Ctrl-space for autocomplete suggestions (accuracy dependent on connection stability).",
+        goFullScreen: "Go full screen",
+        exitFullScreen: "Exit full screen",
+        goFullScreenTooltip: "Fullscreen mode for split view",
+        verticalView: "Vertical view",
+        splitView: "Split view",
+        changeToVerticalView: "Change to vertical view",
+        changeToSplitView: "Change to split view",
+        lightTheme: "Light",
+        darkTheme: "Dark",
+        unsavedCodeWarning: "You may loose all the unsaved changes!",
+        savedText: "Saved",
+        savingText: "Saving",
+        errorInSavingText: "Error in saving",
+        saveText: "Save",
+        setFavoriteLangText: "Set {0} as favorite",
+        setDefaultTemplateText: "Set as default template",
+        selectLanguageText: "Select Language",
+        themeHeader: "Theme",
+        YOUR_SUBMISSION_HAS_BEEN_SAVED_SUBMISSION_ID: "Your submission has been saved. Submission ID:",
+        SUBMISSION_RESULT_WONT_BE_SHOWN:  "<strong>Note:</strong> Submission result won't be shown." ,
+        helpText: "Just one more thing to do",
+        editorModeHeader: "Editor Mode",
+        editorFontHeader: "Font",
+        editorTabSpaceHeader: "Tab Space",
+        editText: "Edit",
+        submitText: "Submit",
+        playText: "Play",
+        defaultBot: "Default Bot",
+        fetchFailure: "A server error has occurred. You can continue writing code or attempt any other question and try again after a while.",
+        fetchTimedout: "We have received your submission and it is being evaluated.",
+        multiEditModeIndicator: "Multiline editing is enabled. Press esc to turn it off.",
+        favLangMsg: "has been set as your preferred language.",
+        defaultCodeMsg: "code template has been updated.",
+        visibility: "Visibility",
+        notAvailableText: "-",
+        visibleTestCase: "Visible test case",
+        hiddenTestCase: "Hidden test case",
+        errorHeader: "Error",
+        errorContent: "There was an error while loading the editor. Click Reload to refresh the editor.",
+        reload: "Reload",
+        reloadEditor: "Reload editor",
+        reconnectText: "Reconnect",
+        resetCodeStub: "Reset to default code",
+        resetCodeStubDisable: "No default code stub available",
+        resetCodeStubModelHeader: "Are you sure you want to reset the code stubs to the default code?",
+        resetCodeStubModelContent: "After you reset the code, all your progress will be lost.",
+        resetCodeStubBtn: "Reset code stubs",
+        cancelBtn: "Cancel",
+        lspConnectionText: {
+            SETTING_UP: "Setting up auto-complete...",
+            OPEN: "Auto-complete ready!",
+            CLOSED: "Auto-complete connection failed.",
+        },
+        submitResponseText: {
+            header: {
+                RESULT: "RESULT",
+                EVALUATING_SOLUTION: "Evaluating solution...",
+                SUBMISSION_ID : "Submission ID",
+                REFER_JUDGE_ENVIRONMENT : "Refer judge environment",
+                VIEW_MORE_TEXT : "View more"
+            },
+            table: {
+                inputCol: {
+                    DISPLAY_NAME: "Input",
+                },
+                outputCol: {
+                    DISPLAY_NAME: "Output",
+                },
+                yourOutput: {
+                    HEADING_TOOLTIP: "Your output for given input",
+                },
+                correctOutput: {
+                    HEADING_TOOLTIP: "Correct output for given input",
+                },
+                log: {
+                    HEADING_TOOLTIP: "Standard error stream for given input",
+                    ERROR_TOOLTIP: "Error log for given testcase",
+                },
+                diff: {
+                    HEADING_TOOLTIP: "Diff between your output and correct output",
+                }
+            },
+            footer: {
+                COMPILATION_LOG: "Compilation log",
+            },
+            common: {
+                SCORE: "Score",
+                TIME: "Time (sec)",
+                MEMORY: "Memory (KiB)",
+                LANGUAGE: "Language",
+                INPUT: "Input",
+                RESULT: "Result",
+                YOUR_OUTPUT: "Your output",
+                CORRECT_OUTPUT: "Correct output",
+                LOG: "Log",
+                DIFF: "Diff",
+                AC_TITLE: "Solution accepted",
+                PAC_TITLE: "Partially solved",
+                SECONDS: "seconds",
+                SEC_S: "sec(s)",
+                KIB: "KiB",
+            },
+            resultMapping: {
+                RE: "Runtime error",
+                CE: "Compilation error",
+                TLE: "Time limit exceeded",
+                OLE: "Output limit exceeded",
+                MLE: "Memory limit exceeded",
+                WA: "Wrong answer",
+                AC: "Accepted",
+                PAC: "Partially accepted",
+                IFME: "Input File Missing",
+            },
+            typeDescriptionMapping: {
+                SIGSEGV: 
+                    '<span class="bold">Segmentation fault:</span> This error has occurred because your program is trying to read or write outside the allocated memory or your program is trying to write a read-only memory. For example, this error is thrown when you are accessing a[-1] in a programming language that does not support negative indices for an array.<div>The SIGSEGV error can also occur when an out-of-scope array index causes a buffer overflow or an incorrectly-initialized pointer.</div>'
+                ,
+                SIGXFSZ: 
+                    '<span class="bold">Output limit exceeded:</span> This error has occurred because your program is printing an excessive amount of data.'
+                ,
+                SIGFPE: 
+                    '<span class="bold">Floating point error:</span> This error has occurred because you are dividing a number by 0 or trying to take the square root of a negative number.'
+                ,
+                SIGABRT: 
+                    '<span class="bold">Signal abort error:</span> This error has occurred because the compiler aborted your program in while executing the same. It can also occur because of allocation of insufficient memory.'
+                ,
+                NZEC: 
+                    '<span class="bold">Non-zero exit code:</span> This error has occurred because the program has exited after returning a different value from 0 to the shell.<div>In C or C++, the error represents (but not limited to) that you forgot to add <span class="bold">return 0</span> at the end of your program, your program throws an exception that has not been caught, or the program has allocated a large amount of memory in vector.</div><div>For languages such as Python, this error represents that your program has crashed or raised an uncaught exception.</div>'
+                ,
+                MLE: 
+                    '<span class="bold">Memory limit exceeded:</span> This error has occurred because your program is trying to allocate some memory beyond the allowed limit. It can also occur if the program has a very large array or if a data structure in your program is too large.'
+                ,
+            }
+        },
+        backend: {
+            CAN_SHOW_VISIBLE_TEST_CASES: false,
+        },
+        warningMessageAndFailure: {
+            WARNING_MESSAGE: "Evaluating your code. Sorry it's taking longer than usual.",
+            modal: {
+                COMPILATION_HEADING: "Compilation failed",
+                SUBMISSION_HEADING: "Submission failed",
+                FAILURE_MESSAGE: "Code evaluation failed. This could be due to an internal error. Try again.",
+                PRIMARY_BUTTON: "Retry",
+                SECONDARY_BUTTON: "Cancel",
+            }
+        },
+    };
+
+    var CodeEditorConstants= {
+        CAN_SHOW_SCORE_FOR_SUBMISSION: false,
+    }
+
+</script>
+
+
+
+<script type="text/javascript">
+    // Following global variables are used to carry translated strings from HTML pages to 'bluebook' React templates
+    var QUESTION_TEXT = "Question";
+    var LOAD_QUESTION_TEXT = "Load Question";
+    var FLOW_HELP_TEXT = "See how to attempt this question.";
+    var MAX_MARKS_TEXT = "Max. score";
+    var LOADING_ERR_MSG_TEXT = "Oops! There seems to be some issue. Please refresh the page.";
+    var LOAD_CODE_EDITOR_TEXT = "Load Code Editor";
+    var LOADING_TEXT = "Loading Code Editor...";
+    var CODE_SUBMIT_HELP_TEXT = "You can submit code after loading editor";
+    var NEW_SUBMISSION_TEXT = "New Submission";
+    var ALL_SUBMISSIONS_TEXT = "All Submissions";
+    var REFRESHING_TEXT = "Refreshing...";
+    var REFRESH_ALL_SUBMISSIONS_TEXT = "Refresh All Submissions List";
+    var EXPLAINATION_TEXT = "Explanation";
+    var SAMPLE_INPUT_TEXT = "Sample Input";
+    var SAMPLE_OUTPUT_TEXT = "Sample Output";
+    var PLAINTEXT_LINK_TEXT = "Plaintext Link";
+    var TIME_LIMIT_TEXT = "Time Limit";
+    var MEMORY_LIMIT_TEXT = "Memory Limit";
+    var SOURCE_LIMIT_TEXT = "Source Limit";
+    var FILE_SIZE_LIMIT_TEXT = "File size limit is {fileSizeLimit} MB";
+    var MARKING_SCHEME_TEXT = "Marking Scheme";
+    var ALLOWED_LANGUAGES_TEXT = "Allowed Languages";
+    var SUBMITTING_TEXT = "Submitting..";
+    var ATTEMPTED_TEXT = "Attempted";
+    var SUBMIT_TEXT = "Submit";
+    var ALERT_TEXT_1 = "Please attach a file to your answer";
+    var UPLOAD_FILE_TEXT = "Upload File";
+    var UPLOAD_PREDICTION_FILE_TEXT = "Upload File";
+    var UPLOAD_SOURCE_CODE_TEXT = "Upload Source Code";
+    var UPLOAD_APK_TEXT = "Upload Android Application (.apk)";
+    var ALERT_TEXT_2 = "Your time for this question is over. You cannot change your answer now.";
+    var NOT_ATTEMPTED_TEXT = "Not Attempted";
+    var ALERT_TEXT_3 = "Answer was reset successfully!";
+    var ALERT_TEXT_4 = "You cannot reset the answer now!";
+    var ALERT_TEXT_5 = "Your time for this question is over. You cannot reset your answer now.";
+    var ALERT_TEXT_6 = "Your time for this question is over. You cannot change your answer now.";
+    var RESET_ANSWER_TEXT = "Reset Answer";
+    var ANSWER_SAVED_TEXT = "Answer Saved";
+    var ANSWER_UNSAVED_TEXT = "Do not forget to submit your answer.";
+    var NEXT_QUESTION_TEXT = "Next Question";
+    var WRITE_ANSWER_TEXT = "Write your answer here";
+    var WARNING_TEXT = "Select at least one option.";
+    var CHANGE_FILE_TEXT = "Change File";
+    var DISABLE_ERROR_MESSAGE = "Please upload APK file first!";
+    var YOUR_ANSWER_TEXT = "Your Answer";
+    var ADDITIONAL_COMMENTS = "Additional Comments";
+    var YOUR_SOLUTION = "Your Solution";
+    var PREVIEW_TEXT = "Preview";
+    var WEBCAM_NOT_ACCESSIBLE_MESSAGE = "Could not access webcam. Enable webcam or use latest version of chrome/firefox browser.";
+    var TIME_COMPLETED_MESSAGE = "The time has completed!";
+    var LEAVE_CONFIRM_MESSAGE_1 = "Are you sure you want to leave?";
+    var WEBCAM_ACCESS_INFO_1 = "This test requires webcam access. Give webcam permission.";
+    var WEBCAM_ACCESS_INFO_2 = "You can not take test without giving access to webcam.";
+    var TIME_UP_MESSAGE = "Time Up!";
+    var TIME_OVER_MESSAGE_1 = "Your time for this question is over. You cannot change your answer now.";
+    var PLEASE_WAIT_MESSAGE_1 = "Please wait, your answer is being submitted.";
+    var ATTEMPTED_MESSAGE = "Attempted";
+    var NOTE_TEXT = "Note";
+    var NOT_ATTEMPTED_MESSAGE = "Not Attempted";
+    var PROCTOR_ALERT_1 = "You are a superuser. I will let you cheat.";
+    var PROCTOR_ALERT_2 = "You will be logged out if you leave this page!";
+    var SAMPLE_IO_NOTE = "Your code should be able to convert the sample input into the sample output. However, this is not enough to pass the challenge, because the code will be run on multiple test cases. Therefore, your code must solve this problem statement.";
+    var PREDICTION_ERROR_TEXT = "Please upload your prediction file";
+    var FILE_SIZE_ERROR_TEXT = "Please upload a file with size less than {fileSizeLimit} MB";
+    var SOURCE_CODE_ERROR_TEXT = "Please upload your source code file";
+    var CodeEditorConstants= {
+        CAN_SHOW_SCORE_FOR_SUBMISSION: false,
+    }
+</script>
+
+<script type="text/javascript" charset="utf-8">
+    var DOWNLOAD_DATASET_TEXT = "Download dataset";
+    window.PRACTICE_PAGE = {
+        CONSTANT: {
+            USER_ID: '9256773',
+            isAuthenticated: true,
+            STATIC_URL: 'https://cdn.hackerearth.com/static/',
+            RENDER_ISSUE_ALERT: "An error has occurred. Please refresh the page or try after sometime.", 
+            DETAILS: "Details",
+            SUBMISSIONS: "Submissions",
+            DISCUSSIONS: "Discussion",
+            SIMILAR_PROBLEMS: "Similar Problems",
+            EDITORIAL: "Editorial",
+            AUTHOR_SOLUTION: "Author's Solution",
+            TESTER_SOLUTION: "Tester's Solution",
+            ALL_TRACKS: "All Tracks",
+            PROBLEM: "Problem",
+            SHARE: "Share",
+            PREDICTION_FILE_TITLE: "Upload prediction file",
+            PREDICTION_FILE_DESC: "Please upload the prediction file in the format as stated in the problem.",
+            ADD_FILES:  '<span class="highlight">Add files</span> or drop files here' ,
+            UPLOADED_AND_SUBMIT: "Your file has been uploaded successfully and submit now.",
+            SUBMIT_AND_EVALUATE: "Submit & Evaluate",
+            SUCCESS_MESSAGE: "Your submission has been received. Check your submissions tab for more",
+            ERROR_MESSAGE: "Something went wrong, try again.",
+            SRC_FILE_TITLE: "Upload Source Files",
+            SRC_FILE_DESC: "You need to submit a zip or tar archive consisting of a text file explaining your approach, details about feature engineering, tools you used and the relevant source files.",
+            UPLOAD: "Upload",
+            EXPLANATION: "Explanation",
+            CONTRIBUTORS: "Contributers",
+            VOTES: "votes",
+            AVG_RATING: "Average Rating",
+            YOU_RATED: "You Rated",
+            RATE_HERE: "Rate Here",
+            ATTEMPTED_BY: "Attempted by",
+            SUCCESS_RATE: "Success Rate",
+            POINTS: "Points",
+            TAGS: "Tags",
+            MY_SUBMISSION: "My Submissions",
+            BEST_SUBMISSION: "Best Submissions",
+            TD_RESULT: "Result",
+            TD_RESULT_DETAILS: "Result Details",
+            TD_TIME: "Time (Sec)",
+            TD_MEMORY: "Memory (kb)",
+            TD_LANG: "Language",
+            TD_DETAIL: "Detail",
+            TD_DATE: "Date",
+            NO_SUBMISSION: "No code submissions done yet",
+            SUBMISSION: "Submission",
+            NO_BEST_SOLUTION: "There is no solution for this language",
+            EDITORIAL_LOCK_INFO: "The Editorial is locked. In order to qualify for points, you need to solve the problem without unlocking the editorial.",
+            EDITORIAL_LOCK_MSG: "Are you sure you want to unlock the tab?",
+            EDITORIAL_UNLOCK_TEXT: "Unlock it"
+        }
+    }
+</script>
+
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/practice/vendors.e7a10e69de9c.js" crossorigin="anonymous" ></script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/practice/practice.3a627a7a3f40.js" crossorigin="anonymous" ></script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/timeline/util.350eec762462.js" crossorigin="anonymous" ></script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/timeline/controller.590595221715.js" crossorigin="anonymous" ></script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/timeline/plugins/codevideo/code_player.1487cb2419f4.js" crossorigin="anonymous" ></script>
+
+
+
+        <!-- alljs: static_media/js/jquery-1.7.min.patched.js static_media/js/jquery.color.js static_media/js/jquery.elastic.js static_media/js/ajaxSend.js  static_media/js/jquery.inview.js  static_media/js/tooltip/jquery.tipTip.modified.js  static_media/offline/offline.min.js  static_media/js/watermark.min.js  static_media/history.js?v=0.1/scripts/bundled/html4html5/jquery.history.js  static_media/js/jquery.nicescroll.js  static_media/simplemodal/simplemodal.js static_media/js/jquery.sticky.js static_media/js/pusher.min.js static_media/js/ifvisible.min.js static_media/feeds/feeds.js static_media/base/progress_bar.js -->
+        
+
+
+
+
+
+<script>
+    UPLOADING_TEXT = "Uploading";
+    UPLOADED_TEXT = "Uploaded";
+    SAVING_TEXT = "Saving..";
+    UPLOAD_SUCCESS_MESSAGE = "File saved successfully.";
+    UPLOAD_ERROR_MESSAGE = "An error occured while saving, please try again in sometime.";
+</script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/js/alljs.4b9c2cf26ef1.js" crossorigin="anonymous" ></script>
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/base/base1.0.1.2a146214f85d.js" crossorigin="anonymous" ></script>
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/bigpipe/bigpipe.65dadf156b10.js" crossorigin="anonymous" ></script>
+        
+
+
+<script type="text/javascript">
+var CONFIRM_COMMENT_DELETE = "Are you sure, you want to delete comment?";
+var COMMENT_NOT_DELETED = "Comment could not be deleted!";
+var CONFORM_COMMENT_MARK_SPAM = "Are you sure, you want to mark this comment as spam?";
+var COMMENT_NOT_MARKED_SPAM = "Comment could not be marked as spam!";
+var ENTER_15_CHARS = "Enter at least 15 characters";
+var JUST_X_MORE = "Just {count} more to go";
+</script>
+        <script>
+            var MAP_MARKER_SIGNUP_IMAGE = 'https://cdn.hackerearth.com/static/metrics/map-marker.png';
+            var MAP_MARKER_LOGIN_IMAGE = 'https://cdn.hackerearth.com/static/metrics/map-marker-login.png';
+            var AJAX_URL = '';
+
+            // Used in search
+            var is_user_logged_in = true;
+        </script>
+        
+        
+<script>
+    // firestore credentials
+    var firebaseConfig = {
+        apiKey:'AIzaSyD7oH2r4iyvysFx47-IVwrzdwIuw7Ici90',
+        authDomain:'he-production.firebaseapp.com',
+        databaseURL:'https://he-production.firebaseio.com',
+        projectId:'he-production',
+        storageBucket:'he-production.appspot.com',
+        messagingSenderId:'100736274227',
+        appId:'1:100736274227:web:fdd60d6929555af4d3b846'
+    };
+    window.firebaseConfig = firebaseConfig;
+</script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/js/firebase/firebase-app.a75f50850a09.js" crossorigin="anonymous" ></script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/js/firebase/firebase-firestore.ac7f12977426.js" crossorigin="anonymous" ></script>
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/realtime/firestore_realtime.4bfd998e5357.js" crossorigin="anonymous" ></script>
+
+        
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/base/history.9f9bce34e5c7.js" crossorigin="anonymous" ></script>
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/js/commentUtils.dadb11872038.js" crossorigin="anonymous" ></script>
+
+
+        
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+    window.DISCUSSION_FORUM = {
+        CONFIG: JSON.parse("{\"avatarUrl\": \"https://he-s3.s3.amazonaws.com/media/avatars/manojthakurgour09/resized/120/aachttcwktobqct82dyg3wlkxfulje8ixs8j4o43uowuqspe7ws96-c\", \"displayName\": \"Manoj  Gour\", \"isAuthenticated\": true, \"profileId\": 9256773, \"profileUrl\": \"/@manojthakurgour09\", \"canPin\": false, \"identifier\": \"MTgzOjI3NTE1MzE=\", \"parentTitle\": \"Favourite Singer\", \"parentUrl\": \"/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/\", \"showBreadcrumb\": false, \"showBackbutton\": true}"),
+        CONSTANT: {
+           BACK_STR : "Back",
+           EDIT_STR: "Edit",
+           DELETE_STR: "Delete",
+           EDIT_TITLE: "Edit this topic",
+           DELETE_TITLE: "Delete this topic",
+           CANCEL_STR: "Cancel",
+           UPDATE_TOPIC: "Update topic",
+           PUBLISH_TOPIC: "Publish topic",
+           ADD_REPLY_STR: "Reply",
+           LOGIN_TO_LIKE: "Login to like",
+           LIKE_TOPIC: "Like this topic",
+           UNLIKE_TOPIC: "Unlike this topic",
+           LIKE_COMMENT: "Like this comment",
+           UNLIKE_COMMENT: "Unlike this comment",
+           DELETE_COMMENT: "Delete",
+           DELETE_COMMENT_TITLE: "Delete this comment?",
+           DELETE_COMMENT_MESSAGE: "All the replies within this comment will also get deleted",
+           PIN: "Pin",
+           UNPIN: "Unpin",
+           PIN_STR: "Pin this topic to the discussion board",
+           UNPIN_STR: "Unpin this topic from the discussion board",
+           PINNED: "Pinned",
+           TOPIC_UPDATE_ALERT: "The topic has been updated",
+           TOPIC_DUPLICATE_ALERT: "The topic has been posted to the discussion forum",
+           PINNED_ALERT: "Topic has been pinned",
+           UNPINNED_ALERT: "Topic has been unpinned",
+           PIN_ERROR: "There was some error while trying to pin topic",
+           TOPIC_DELETE_ALERT: "Some error occured while trying to delete this topic. Please contact support if problem persists.",
+           TOPIC_DELETE_SUCCESS: "The topic has been deleted",
+           TOPIC_404: "Topic not found. The URL might be incorrect or the topic has been deleted",
+           PAGE_REFRESH: "Some error occured while loading this page. Please try refreshing this page once",
+           RATELIMIT_REACHED: "You have exceeded the allowable access rate for this page. Please try again after some time.",
+           CREATE_NEW_TOPIC: "Create new Topic",
+           THATS_ALL_FOLKS: "That's all folks!",
+           UNACCEPTABLE_CONTENT: "This content is not acceptable.",
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    var initial_state = {
+        pType: "algorithm",
+        slug: "favourite-singer-a18e086a",
+        title: "Favourite Singer",
+        topicTree: {"track": {"url": "/practice/basic-programming/", "title": "Basic Programming"}, "topic": {"url": "/practice/basic-programming/input-output/", "title": "Input/Output"}, "sub_topic": {"url": "/practice/basic-programming/input-output/basics-of-input-output/", "title": "Basics of Input/Output"}},
+        problemData: {"id": 2751531, "title": "Favourite Singer", "description": "<p>Bob has a playlist of <span class=\"mathjax-latex\">\\(N\\)</span> songs, each song has a singer associated with it (denoted by an integer)</p>\n\n<p>Favourite singer of Bob is the one whose songs are the most on the playlist</p>\n\n<p>Count the number of Favourite Singers of Bob</p>\n\n<p><strong><u>Input Format</u>&nbsp;</strong></p>\n\n<p>The first line contains an integer&nbsp;<span class=\"mathjax-latex\">\\(N\\)</span>, denoting the number of songs in Bob's playlist.</p>\n\n<p>The following input contains <span class=\"mathjax-latex\">\\(N\\)</span> integers, <span class=\"mathjax-latex\">\\(i^{th}\\)</span>&nbsp;integer denoting the singer of the&nbsp;<span class=\"mathjax-latex\">\\(i^{th}\\)</span>&nbsp;song.</p>\n\n<p><u><strong>Output Format</strong></u></p>\n\n<p>Output a single integer, the number of favourite singers of Bob</p>\n\n<p><strong>Note:</strong> Use 64 bit data type</p>\n\n<p><u><strong>Constraints</strong></u></p>\n\n<p><span class=\"mathjax-latex\">\\(1 \\leq N \\leq 2*10^{5} \\\\\n1 \\leq a[i] \\leq 10^{15}\\)</span></p>", "sample_explanation": "<p>In this example<br>\nSongs of singer 1 and 2 appear 2 times(which is max) in this playlist&nbsp;<br>\nTherefore the answer is 2</p>", "tags": "Basics of Input/Output,Input/Output,Basic Programming", "level": "E", "private_url_hash": "9ac181466dc648afa281068ed33351a8", "ratings": {"score": 3.0, "votes": 101}, "success_rate": 75, "points": 20, "attempted_by": 67096, "bookmarked": false, "time_limit": 1.0, "memory_limit": 256, "max_code_size": 1024, "editorial": {"state": "locked"}},
+        activeTab: "description",
+        baseURL: "/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/",
+        isSourceList: false,
+        shareURL: "https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/favourite-singer-a18e086a/"
+    }
+    
+    function loadPracticePage() {
+        if (window.renderPracticePage) {
+            window.renderPracticePage("practice-problem-app-root", initial_state);
+        } else {
+            typeof addAlert !== "undefined" && addAlert(PRACTICE_PAGE.CONSTANT.RENDER_ISSUE_ALERT);
+        }
+    }
+
+    function loadPracticeLitePage() {
+        if (window.renderPracticeLitePage) {
+            window.renderPracticeLitePage("practice-problem-app-root", initial_state);
+        } else {
+            typeof addAlert !== "undefined" && addAlert("Failed");
+        }
+    }
+
+    const isAuthenticated = true
+    try {
+        if(isAuthenticated) {
+            window.loadPracticePage();
+        } else {
+            window.loadPracticeLitePage();
+        }
+    } catch (e) {
+        if(isAuthenticated) {
+            window.addEventListener("load", loadPracticePage);
+        } else{
+            window.addEventListener("load", loadPracticeLitePage);
+        }
+    }
+</script>
+
+
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/offline/offline.min.98d243bc54c2.js" crossorigin="anonymous" ></script>
+
+        <script>
+            if (window.Offline) {
+                Offline.options = {
+                    interceptRequests: false,
+                    requests: false,
+                };
+            }
+        </script>
+
+        
+
+        
+
+<script>
+    var profile_completeness_percentage = 65;
+</script>
+
+
+<script>
+    // Used in search
+    var is_user_logged_in = true;
+</script>
+
+<script>
+
+$(document).ready(function (){
+    $('#header-notif-icon-trigger').click();
+
+    
+
+});
+</script>
+
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/search/search.1.0.f3e89277dbfc.js" crossorigin="anonymous" defer></script>
+
+
+
+
+        
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/js/detect_timezone.12f6ba68823f.js" crossorigin="anonymous" ></script>
+        <script type="text/javascript" src="https://cdn.hackerearth.com/static/js/mapped_tz.b92bd2377713.js" crossorigin="anonymous" ></script>
+        <script>
+
+            function setTimezoneCookie(detected_user_tz) {
+                /* Sets the detected user timezone as a cookie in the browser.
+                   If someone changes it or removes it, a sanity check is
+                   performed and the cookie is reset.
+
+                   This cookie is set for ready availability of user timezone
+                   in the backend.
+                */
+
+                const USER_TIMEZONE_COOKIE = 'user_tz';
+                // Try to get the existing user timezone cookie stored
+                // in the browser.
+                user_tz = readCookie(USER_TIMEZONE_COOKIE);
+
+                // Flag to determine whether a new cookie has to be created.
+                create_cookie = false;
+
+                if(user_tz) {
+                    if(user_tz !== detected_user_tz) {
+                        // If someone has changed the cookie in some way, we
+                        // set a new cookie.
+                        eraseCookie(USER_TIMEZONE_COOKIE);
+                        create_cookie = true;
+                    }
+                } else {
+                    create_cookie = true;
+                }
+
+                // Create a new cookie if create_cookie flag is set.
+                createCookie(USER_TIMEZONE_COOKIE, detected_user_tz, 1);
+
+            }
+            $(document).ready(function(){
+                var timezone = '';
+                if (Intl && Intl.DateTimeFormat){
+                    timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                    // Map timezone name to a name that is familiar to our backend
+                    if (mapped_tz && mapped_tz[timezone]) {
+                        timezone = mapped_tz[timezone]
+                    }
+                }
+                if (!timezone) {
+                    timezone = jstz.determine_timezone();
+                    timezone = timezone.name();
+                }
+                if (!timezone) {
+                    // could not detect timezone, setting it to GMT timezone
+                    timezone = 'Africa/Abidjan'
+                }
+                // Set as a cookie in browser for easy access in backend.
+                setTimezoneCookie(timezone);
+
+                // Set as a js variable for easy access across frontend.
+                USER_TIMEZONE = timezone
+
+                
+
+                
+
+                
+                
+                
+                
+                
+
+                
+                    var profile_timezone = "Asia/Kolkata";
+                    if (timezone !== profile_timezone) {
+                        $.ajax({
+                            type: "POST",
+                            url:"/users/AJAX/set-timezone/",
+                            data: {
+                            'timezone': timezone,
+                            },
+                        });
+                    }
+                
+
+                
+            });
+        </script>
+        
+
+        
+            
+
+            
+            
+        
+
+         
+
+        
+            
+
+<link rel="stylesheet" href="https://cdn.hackerearth.com/static/cookie_consent/cookiebar.ffe531fab344.css"/>
+
+<script type="text/javascript" src="https://cdn.hackerearth.com/static/cookie_consent/cookiebar.70181766db90.js" crossorigin="anonymous" ></script>
+
+
+        
+
+        
+            
+        
+
+        
+            <!-- Hackerearth Hubspot Chat Widget -->
+
+
+
+
+<link rel="stylesheet" href="https://cdn.hackerearth.com/static/base/hubspot-chat-widget.3d8752b3cf0b.css"/>
+
+<div class="support-widget-wrapper">
+    <div class="ripple-loader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="support-section">
+        <div id="hs-launch-button" class="customer-support-icon">
+            <p>?</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function hubspotChatWidget() {
+        function loadHubspotScripts() {
+            const s = document.createElement('script');
+            s.src = "//js-na1.hs-scripts.com/2586902.js";
+            s.id = "hs-script-loader";
+            s.type = "text/javascript";
+            s.async = true;
+            s.defer = true;
+            document.getElementsByTagName("head")[0].appendChild(s);
+        }
+
+        function setHubspotConversationSettings() {
+            window.hsConversationsSettings = {
+                loadImmediately: false,
+                inlineEmbedSelector: '#hs-launch-button',
+                enableWidgetCookieBanner: true,
+                disableAttachment: false,
+            };
+        }
+
+        function onConversationsAPIReady() {
+            const status = window.HubSpotConversations.widget.status();
+            if (status.loaded) {
+                if (window.isWidgetOpen) {
+                    window.isWidgetOpen = false;
+                    window.HubSpotConversations.widget.remove();
+                } else {
+                    window.isWidgetOpen = true;
+                    window.HubSpotConversations.widget.load({ widgetOpen: true });
+                }
+            } else {
+                window.isWidgetOpen = true;
+                window.HubSpotConversations.widget.load({ widgetOpen: true });
+            }
+        }
+
+        function activateHubspotWidget() {
+            if (window.HubSpotConversations) {
+                onConversationsAPIReady();
+            } else {
+                $('.ripple-loader').css('display', 'block');
+                $('.support-section').css('display', 'none');
+                loadHubspotScripts();
+                window.hsConversationsOnReady = [onConversationsAPIReady, () => {
+                    $('.ripple-loader').css('display', '');
+                    $('.support-section').css('display', '');
+                }];
+            }
+        }
+
+        $(document).ready(function () {
+            setHubspotConversationSettings();
+            $(".customer-support-icon").on("click", function (e) {
+                e.stopPropagation();
+                activateHubspotWidget();
+            });
+        });
+    }
+    try {
+        hubspotChatWidget();
+    } catch (exception) {
+        console.error(exception)
+    }
+</script>
+        
+    </body>
+</html>
